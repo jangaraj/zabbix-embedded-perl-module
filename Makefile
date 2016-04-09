@@ -7,7 +7,7 @@ zabbix_module_perl: zabbix_module_perl.c
 	cp zabbix_module_perl.so /tmp
 	chmod 777 /tmp/zabbix_module_perl.so
 	sleep 2
-	zabbix_agentd -c /root/git/zabbix-perl-module/zabbix_agentd.conf
+	zabbix_agentd -c /root/git/zabbix-embedded-perl-module/zabbix_agentd.conf
 	ps -ef | grep zabbix_agentd
 
 
